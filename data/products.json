@@ -1,0 +1,54 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Laptop",
+        "category": "Electronics",
+        "price": 1200,
+        "stock": 50
+      },
+      {
+        "id": 2,
+        "name": "Smartphone",
+        "category": "Electronics",
+        "price": 800,
+        "stock": 100
+      },
+      {
+        "id": 3,
+        "name": "Bookshelf",
+        "category": "Furniture",
+        "price": 300,
+        "stock": 20
+      },
+      {
+        "id": 4,
+        "name": "Headphones",
+        "category": "Electronics",
+        "price": 100,
+        "stock": 75
+      },
+      {
+        "id": 5,
+        "name": "Desk",
+        "category": "Furniture",
+        "price": 200,
+        "stock": 30
+      },
+      {
+        "id": 6,
+        "name": "Backpack",
+        "category": "Accessories",
+        "price": 50,
+        "stock": 50
+      },
+      {
+        "id": 7,
+        "name": "Sunglasses",
+        "category": "Accessories",
+        "price": 80,
+        "stock": 40
+      }
+    ]
+  }
+  
