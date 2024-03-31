@@ -8,7 +8,7 @@ export default function navbar() {
         <div class="container mx-auto flex justify-between items-center">
             <div class="text-white font-semibold">Logo</div>
             <ul class="flex space-x-4">
-            <li><NavLink to="/" class="text-white hover:text-gray-300">Home</NavLink></li>
+            <li><NavLink to="home" class="text-white hover:text-gray-300">Home</NavLink></li>
             <li><NavLink to="about" class="text-white hover:text-gray-300">About</NavLink></li>
             <li><NavLink to="products" class="text-white hover:text-gray-300">Products</NavLink></li>
             <li><NavLink to="contact" class="text-white hover:text-gray-300">Contact</NavLink></li>

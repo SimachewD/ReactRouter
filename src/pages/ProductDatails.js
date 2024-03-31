@@ -6,7 +6,7 @@ export default function ProductDatails() {
     const product = useLoaderData();
 
   return (
-    <div>
+    <div className=' bg-sky-800 rounded-md shadow-md my-10 py-10 mx-10 mb-10 h-2/3'>
         <h1 className=' text-2xl font-bold mb-10'>Product Details:  {product&&product.name}</h1>
         <h1 className=' text-md'>Name: {product&&product.name}</h1>
         <h1 className=' text-md'>Category: {product&&product.category}</h1>
@@ -19,5 +19,8 @@ export default function ProductDatails() {
 export const productDetailsLoader = async({ params })=>{
     const { id } = params;
     const res = await fetch('http://localhost:4000/products/'+ id);
-    return res.json();
+    if (res.ok) {
+      return res.json();
+    }
+    throw Error('Product not found');
   }
